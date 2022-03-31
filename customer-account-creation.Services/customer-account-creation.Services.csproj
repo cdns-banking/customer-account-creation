@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>customer_account_creation.Services</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\customer-account-creation.Dal\customer-account-creation.Dal.csproj" />
+    <ProjectReference Include="..\customer-account-creation.Domain\customer-account-creation.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
